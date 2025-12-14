@@ -10,6 +10,59 @@ export const createSlug = (title) => {
 export const portfolioData = [
   {
     id: 1,
+    title: "Cake.You",
+    slug: "cake-you",
+    category: "Full Stack",
+    description: "Platform e-Bisnis Kueku dengan desain modern, inventory system, dan admin dashboard.",
+    shortDesc: "Platform e-Bisnis Kueku dengan desain modern, inventory system, dan admin dashboard.",
+    image: "/portfolio/kueku.png",
+    tags: ["PHP", "MySQL", "Tailwind CSS"],
+    link: "#",
+    github: "#",
+    year: "2025",
+    client: "Surianti Makas",
+    budget: "Rp 350,000",
+    duration: "1 hari",
+    features: [
+      "Product listing & filtering dinamis",
+      "Shopping cart & checkout process",
+      "Order management system",
+      "Inventory tracking real-time",
+      "Admin dashboard dengan analytics",
+      "Mobile responsive design",
+      "Performance optimization"
+    ],
+    technologies: {
+      frontend: ["Tailwind CSS", "Redux"],
+      backend: ["Node.js", "PHP"],
+      database: ["MySQL"],
+      tools: ["Nothing"]
+    },
+    challenges: [
+      "Selalu revisi terus dari dosen"
+    ],
+    solutions: [
+      "Solusi terbaikk yang saya lakukan yaitu mengoptimalkan kode agar tetap konsisten"
+    ],
+    results: [
+      "Dosen puas, saya puas, client puas"
+    ],
+    testimonial: {
+      name: "Surianti Makas",
+      position: "Mahasiswa SI, UNG angkatan 2023",
+      text: "Cake.You adalah platform e-Bisnis Kueku yang saya buat untuk memudahkan saya dalam menjual kueku. Platform ini sangat membantu saya dalam mengelola kueku saya dan memudahkan saya dalam menjual kueku saya. Saya sangat puas dengan hasil kerja JokiWeb.pro dan berharap dapat bekerja sama lagi di masa depan."
+    },
+    gallery: [
+      { type: "screenshot", title: "Homepage" },
+      { type: "screenshot", title: "Product Detail" },
+      { type: "screenshot", title: "Shopping Cart" },
+      { type: "screenshot", title: "Admin Dashboard" }
+    ],
+    status: "Live",
+    liveUrl: "https://ecommercekue.kesug.com/"
+  },
+  {
+    id: 2,
     title: "Angelato Resto",
     slug: "angelato-resto",
     category: "Full Stack",
@@ -72,7 +125,7 @@ export const portfolioData = [
     liveUrl: "https://angelato.kesug.com/"
   },
   {
-    id: 2,
+    id: 3,
     title: "Nexus Dashboard",
     slug: "nexus-dashboard",
     category: "Frontend",
@@ -133,7 +186,7 @@ export const portfolioData = [
     liveUrl: "https://nexuskms.vercel.app/"
   },
   {
-    id: 3,
+    id: 4,
     title: "E-QuranKu Mobile App Backend",
     slug: "e-quranku-mobile-app-backend",
     category: "Mobile",
@@ -195,7 +248,7 @@ export const portfolioData = [
     liveUrl: "https://equranku.vercel.app/"
   },
   {
-    id: 4,
+    id: 5,
     title: "Portal Himatika FMIPA UNG",
     slug: "portal-himatika-fmipa-ung",
     category: "Full Stack",
@@ -258,7 +311,7 @@ export const portfolioData = [
     liveUrl: "https://himatika-nuxtjs.vercel.app/"
   },
   {
-    id: 5,
+    id: 6,
     title: "Web Divisi Programming KSL-UNG",
     slug: "web-divisi-programming-ksl-ung",
     category: "Full Stack",
@@ -322,7 +375,7 @@ export const portfolioData = [
   },
   // Website Lolondong Squad
   {
-    id: 6,
+    id: 7,
     title: "Lolondong Squad",
     slug: "lolondong-squad",
     category: "Full Stack",
@@ -385,7 +438,7 @@ export const portfolioData = [
     liveUrl: "https://lolondongsquad.vercel.app/"
   },
   {
-    id: 7,
+    id: 8,
     title: "Resumegen",
     slug: "resumegen",
     category: "Full Stack",

@@ -73,9 +73,9 @@ const App = () => {
   const pricing = [
     {
       name: "Student Starter",
-      price: "Rp 100rb",
+      price: "Rp 150rb",
       desc: "Perfect untuk tugas kuliah & landing page sederhana.",
-      features: ["1 Halaman Responsive", "Source Code Clean", "Gratis Revisi", "Pengerjaan 2-3 Hari", "Tanpa Database"],
+      features: ["1 Halaman Responsive", "Source Code Clean", "Gratis Konsultasi", "Pengerjaan 1-2 Hari", "Tanpa Database"],
       highlight: false
     },
     {
